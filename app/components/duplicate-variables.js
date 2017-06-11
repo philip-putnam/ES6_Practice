@@ -1,6 +1,8 @@
 var React = require('react');
 
-var Duplicate = React.createClass({
+
+
+var Duplicate = () => ({
 
   render: function() {
     return (

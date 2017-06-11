@@ -4,7 +4,7 @@ var Duplicate = require('./duplicate-variables.js')
 // var NestScope = require('./nest-scope.js');
 // var LoopScope = require('./let-loop-scope.js');
 
-var App = React.createClass({
+var App = () => ({
 
   render: function() {
     return (
